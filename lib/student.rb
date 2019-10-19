@@ -20,9 +20,6 @@ class Student
         )
     SQL
     
-    sql = <<-SQL
-    SQL 
-    
     DB[:conn].execute(sql)
   end 
   
