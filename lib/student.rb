@@ -16,7 +16,7 @@ class Student
       INSERT INTO songs (name, album) 
       VALUES (?, ?)
     SQL
-    sql = <<_SQL
+    sql = <<-SQL
       CREATE TABLE IF NOT EXISTS students (
         id INTEGER PRIMARY KEY,
         name TEXT,
